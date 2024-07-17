@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.Button?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nationalparkmanagementapp.Users.Mymuna.SecurityGuard.Controller.emergencyContactsViewController">
     <top>
         <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #1d2951;" BorderPane.alignment="CENTER">
@@ -28,5 +29,19 @@
     </center>
     <left>
         <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER" />
+    </left>
+    <left>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="522.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" style="-fx-background-radius: 10;" text="Return to Dashboard">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children></HBox>
     </left>
 </BorderPane>

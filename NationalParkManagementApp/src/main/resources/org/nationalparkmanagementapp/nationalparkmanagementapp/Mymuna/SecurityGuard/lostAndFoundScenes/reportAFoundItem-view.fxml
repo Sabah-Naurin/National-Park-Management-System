@@ -16,7 +16,7 @@
     <top>
         <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #1d2951;" BorderPane.alignment="CENTER">
             <children>
-                <StackPane prefHeight="100.0" prefWidth="494.0">
+                <StackPane prefHeight="100.0" prefWidth="611.0">
                     <children>
                         <Label text="Report a Found Item" textFill="WHITE" underline="true">
                             <font>
@@ -25,6 +25,15 @@
                         </Label>
                     </children>
                 </StackPane>
+                <AnchorPane prefHeight="100.0" prefWidth="482.0">
+                    <children>
+                        <Button layoutX="249.0" layoutY="50.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="101.0" style="-fx-background-radius: 10;" text="Back">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
             </children>
         </HBox>
     </top>
@@ -63,5 +72,19 @@
     </center>
     <left>
         <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER" />
+    </left>
+    <left>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="522.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" style="-fx-background-radius: 10;" text="Return to Dashboard">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children></HBox>
     </left>
 </BorderPane>

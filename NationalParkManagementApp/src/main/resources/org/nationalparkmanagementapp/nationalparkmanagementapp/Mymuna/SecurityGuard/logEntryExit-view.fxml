@@ -67,4 +67,18 @@
             </items>
         </SplitPane>
     </center>
+    <left>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="522.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" style="-fx-background-radius: 10;" text="Return to Dashboard">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children></HBox>
+    </left>
 </BorderPane>
