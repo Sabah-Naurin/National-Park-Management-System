@@ -61,24 +61,30 @@
                     </font>
                 </Label>
                 <TextArea layoutX="33.0" layoutY="261.0" prefHeight="200.0" prefWidth="419.0" promptText="Please mention any important details." />
-                <Button layoutX="278.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" text="Attach Photos" />
-                <Button layoutX="481.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" style="-fx-border-color: #1d2951;" text="Submit" />
+                <Button layoutX="278.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" text="Attach Photos">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+                <Button layoutX="481.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" style="-fx-border-color: #1d2951;" text="Submit">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
                 <Button layoutX="354.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Record" />
             </children>
         </AnchorPane>
     </center>
     <left>
         <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER">
-         <children>
-            <AnchorPane prefHeight="522.0" prefWidth="200.0">
-               <children>
-                  <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" style="-fx-background-radius: 10;" text="Return to Dashboard">
-                     <font>
-                        <Font name="System Bold" size="12.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-         </children></HBox>
+            <children>
+                <AnchorPane prefHeight="522.0" prefWidth="200.0">
+                    <children>
+                        <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="137.0" style="-fx-background-radius: 10;" text="Return to Dashboard">
+                            <font>
+                                <Font name="System Bold" size="12.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children></HBox>
     </left>
 </BorderPane>
