@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nationalparkmanagementapp.Users.Mymuna.SecurityGuard.Controller.rulesAndRegulationsViewController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #1d2951;" BorderPane.alignment="CENTER">
+            <children>
+                <StackPane prefHeight="100.0" prefWidth="517.0">
+                    <children>
+                        <Label text="Rules And Regulations:" textFill="WHITE" underline="true">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </StackPane>
+            </children>
+        </HBox>
+    </top>
+    <left>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER" />
+    </left>
+    <center>
+        <TextArea prefHeight="200.0" prefWidth="200.0" text="As a security guard entrusted with the safety and preservation of [National Park Name], it is imperative to adhere to the &#10;following rules and regulations:&#10;&#10;1. Patrol and Monitoring:&#10;   - Conduct regular patrols of designated areas to ensure the safety and security of visitors, wildlife, and park facilities.&#10;   - Monitor surveillance systems, if available, to detect and deter unauthorized activities.&#10;&#10;2. Visitor Assistance:&#10;   - Provide assistance and information to visitors regarding park rules, facilities, and emergency procedures.&#10;   - Ensure visitors comply with park regulations and maintain orderly conduct.&#10;&#10;3. Emergency Response:&#10;   - Respond promptly to emergencies such as medical incidents, fires, or security threats.&#10;   - Coordinate with park authorities and emergency services to manage incidents effectively.&#10;&#10;4. Access Control:&#10;   - Control access to restricted areas, facilities, and after-hours locations as per park regulations.&#10;   - Verify permits and authorization for commercial activities, special events, or restricted areas.&#10;&#10;5. Environmental Protection:&#10;   - Help enforce rules related to wildlife protection, habitat preservation, and waste management.&#10;   - Report any violations of environmental regulations or incidents affecting natural resources.&#10;&#10;6. Fire Safety and Prevention:&#10;   - Monitor fire hazards and enforce fire safety regulations, including restrictions on campfires and smoking.&#10;   - Participate in fire prevention efforts and assist in evacuations if necessary.&#10;&#10;7. Conflict Resolution:&#10;   - Mediate conflicts between visitors, enforce behavioral guidelines, and de-escalate tense situations.&#10;   - Use professional judgment and communication skills to maintain a peaceful park environment.&#10;&#10;8. Equipment and Communication:&#10;   - Maintain and use security equipment responsibly, including radios, flashlights, and protective gear.&#10;   - Stay informed and communicate effectively with park staff, visitors, and emergency responders.&#10;&#10;9. Documentation and Reporting:&#10;   - Document incidents, observations, and security activities accurately in logbooks or electronic systems.&#10;   - Report suspicious activities, safety hazards, or maintenance issues promptly to appropriate authorities.&#10;&#10;10. Professional Conduct:&#10;    - Uphold ethical standards and represent the park professionally in interactions with visitors and stakeholders.&#10;    - Attend training sessions and stay updated on park policies, procedures, and security protocols.&#10;&#10;11. Collaboration and Support:&#10;    - Collaborate with park rangers, maintenance staff, and law enforcement agencies to ensure comprehensive park &#10;management.&#10;    - Support conservation initiatives and community engagement efforts to foster a positive park experience.&#10;&#10;By adhering to these rules and regulations, you play a vital role in safeguarding [National Park Name] and ensuring a &#10;memorable and safe experience for all visitors. Thank you for your dedication and service to our national treasure." BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>
