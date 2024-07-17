@@ -14,4 +14,5 @@ module nationalparkmanagementapp.nationparkmanagementapp {
     exports org.nationalparkmanagementapp.Users;
     exports org.nationalparkmanagementapp.Common;
     exports org.nationalparkmanagementapp;
+    exports org.nationalparkmanagementapp.Users.Mymuna.SecurityGuard.Controller;
 }

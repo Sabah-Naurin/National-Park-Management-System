@@ -1,4 +1,4 @@
-package org.nationalparkmanagementapp;
+package org.nationalparkmanagementapp.Users.Mymuna.SecurityGuard.Controller;
 
 public class reportIncidentViewController
 {
