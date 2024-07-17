@@ -60,10 +60,10 @@
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <TextArea layoutX="33.0" layoutY="261.0" prefHeight="200.0" prefWidth="419.0" />
+                <TextArea layoutX="33.0" layoutY="261.0" prefHeight="200.0" prefWidth="419.0" promptText="Please mention any important details." />
                 <Button layoutX="278.0" layoutY="219.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" text="Attach Photos" />
                 <Button layoutX="481.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="173.0" style="-fx-border-color: #1d2951;" text="Submit" />
-                <Button layoutX="354.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Log" />
+                <Button layoutX="354.0" layoutY="124.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Record" />
             </children>
         </AnchorPane>
     </center>

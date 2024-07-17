@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="622.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.nationalparkmanagementapp.Users.Mymuna.SecurityGuard.Controller.viewReportedItemsViewController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #1d2951;" BorderPane.alignment="CENTER">
+            <children>
+                <StackPane prefHeight="100.0" prefWidth="429.0">
+                    <children>
+                        <Label text="Logged Items" textFill="WHITE" underline="true">
+                            <font>
+                                <Font name="System Bold" size="20.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </StackPane>
+            </children>
+        </HBox>
+    </top>
+    <center>
+        <AnchorPane prefHeight="522.0" prefWidth="662.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView layoutX="4.0" layoutY="6.0" prefHeight="511.0" prefWidth="699.0">
+              <columns>
+                <TableColumn prefWidth="203.99996948242188" text="Description" />
+                <TableColumn prefWidth="91.3333740234375" text="Date" />
+                  <TableColumn prefWidth="102.666748046875" text="Time of Report" />
+                  <TableColumn prefWidth="83.99993896484375" text="Location" />
+                  <TableColumn prefWidth="92.6666259765625" text="Photos" />
+                  <TableColumn prefWidth="128.0001220703125" text="Status" />
+              </columns>
+            </TableView>
+         </children>
+        </AnchorPane>
+    </center>
+    <left>
+        <HBox prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: #adb1c0;" BorderPane.alignment="CENTER" />
+    </left>
+</BorderPane>
